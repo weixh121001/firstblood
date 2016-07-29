@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>wei12</title>
+	</head>
+	<body>
+		<p>全局函数</p>
+	    <p id ="demo">0</p>
+	    <button type="button" onclick="myFunction()">点击</button>
+	    <script>
+	    	var counter = 0;
+	    	function add(){
+	    		return counter += 1;
+	    	}
+	    	
+	    	function myFunction(){
+	    	document.getElementById("demo").innerHTML=add();
+	    }
+	    </script>
+	</body>
+</html>

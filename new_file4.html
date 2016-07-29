@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>wei12</title>
+	</head>
+	<p>myobject.fullname</p>
+	<p id ="demo"></p>
+	<body>
+	<script>
+		var wei ={
+			firstname:"weixh",
+			lastname:"xhui",
+			fullname:function(){
+				return this.firstname+""+this.lastname;
+			}
+		}
+		document.getElementById("demo").style.color="blue";
+		document.getElementById("demo").style.fontFamily="arial";
+		document.getElementById("demo").style.fontSize="larger";
+		document.getElementById("demo").innerHTML = wei.fullname();
+	</script>
+	</body>
+</html>

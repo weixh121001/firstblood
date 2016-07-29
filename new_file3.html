@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>wei</title>
+	</head>
+	<body>
+		<p>点击这个案例，来调用带参数的函数</p>
+		<p id = "demo"></p>
+		<button type="button" onclick="myFunction('wei','xuesh')">点击这里</button>
+		<button onclick="mFunction(3,4)">点击</button>
+		
+		<script>
+			function myFunction(name,job){
+				alert("welcome"+name+",the"+job);
+			}
+		</script>
+		
+		<script>
+			function mFunction(a,b){
+				document.write(a+b);
+			}
+		</script>
+		<button onclick="this.innerHTML=Date()">现在时间</button>
+	</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>safdsad</title>
+		<style>
+			#my{
+				background: cadetblue;
+				border: 1xp solid;
+				padding: 50xp;
+				color: yellow;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="my">
+			div元素添加了——事件句柄，鼠标在框内显示数字。
+			<p >点击按钮</p>
+			<button type="button" onclick="removehandler()" id="mybtn">点我</button>
+		</div>
+		
+		<p id="demo"></p>
+		
+		<script>
+			document.getElementById("my").addEventListener("mousemove",myFunction);
+			function myFunction(){
+				document.getElementById("demo").innerHTML=Math.random();
+			}
+			
+			function removehandler(){
+				document.getElementById("my").removeEventListener("mousemove",myFunction);
+			}
+		</script>
+	</body>
+</html>

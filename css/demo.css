@@ -1,0 +1,90 @@
+/*body{
+	        width: 1366px; 
+			height: 760px;
+			background: url("demo1.jpg") no-repeat;
+			background-size: 100% 100%;
+			
+}*/
+
+.x{
+			text-align: center; 
+			font-family: arial;
+			
+		}
+		.box{
+			
+			width:1200px;
+			height:600px;
+			
+			
+			
+		}
+		.cox
+		{
+			float: left;
+			
+			width: 250px;
+			height: 400px;
+			margin: 20px;
+		}
+		.mox
+		{
+			float: left;
+			
+			height: 70px;
+			width: 1200px;
+			padding: 30px;
+			
+		}
+		.xox{
+			float: left;
+			
+			height: 200px;
+			width: 250px;
+			margin: 2px;
+		}
+		.hox{
+			float: left;
+			
+			height: 100px;
+			width: 250px;
+			margin: 2px;
+		}
+		.aox{
+			float: left;
+			
+			height: 400px;
+			width: 120px;
+			margin: 2px;
+		}
+		.boc{
+			text-align: center;
+			font-family: "微软雅黑";
+			
+			
+		}
+		.one{
+			border-style: solid;
+			border-color: cornflowerblue;
+			border-radius: 10px;
+		}
+		.two{
+			border-style: solid;
+			border-color: cornflowerblue;
+			border-radius: 10px;
+			margin: 2px;
+		}
+		.but
+            {
+            	background-color: yellowgreen ;
+                 border-radius: 25px;
+            	border: none;
+            	color: white;
+            	padding: 15px 32px;
+            	text-align: center;
+    			text-decoration: none;
+    			display: inline-block;
+    			font-size: 16px;
+    			margin: 2px 2px;
+    			cursor: pointer;
+            } 

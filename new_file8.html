@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>121001</title>
+	</head>
+	<body>
+		<p>实例演示了在使用addenentlistener（）方法时如何传递参数。</p>
+		<button id="mybutte">点我</button>
+		<p id="demo"></p>
+		<script>
+			var x = 5;
+			var y = 4;
+			document.getElementById("mybutte").addEventListener("click",function(){
+				myFunction(x,y)});
+			function myFunction(a,b){
+				var z = a*b;
+				document.getElementById("demo").innerHTML = z;
+			}
+		</script>
+	</body>
+</html>

@@ -1,0 +1,49 @@
+.body{
+			text-align: center;
+			font-family: arial;
+			
+		}
+		.box{
+			
+			width:1200px;
+			height:600px;
+			background-color: yellow;
+			
+		}
+		.cox
+		{
+			float: left;
+			background-color: blue;
+			width: 250px;
+			height: 400px;
+			margin: 20px;
+		}
+		.mox
+		{
+			float: left;
+			background-color: yellowgreen;
+			height: 70px;
+			width: 1200px;
+			
+		}
+		.xox{
+			float: left;
+			background-color: white;
+			height: 200px;
+			width: 250px;
+			margin: 2px;
+		}
+		.hox{
+			float: left;
+			background-color: blueviolet;
+			height: 100px;
+			width: 250px;
+			margin: 2px;
+		}
+		.aox{
+			float: left;
+			background-color: brown;
+			height: 400px;
+			width: 120px;
+			margin: 2px;
+		}

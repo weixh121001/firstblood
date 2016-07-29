@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>sdfa</title>
+	</head>
+	<body>
+		<p>sdfasdfasg</p>
+		<button onclick="myFunction()">dianjizheli</button>
+		<p id="demo"></p>
+		<script>
+		function myFunction(){
+			var x;
+			var txt = "";
+			var person ={firstname:"wei",lname:"xioa",age:16};
+			for(x in person){
+				txt = txt + person[x];
+			}
+			document.getElementById("demo").innerHTML=txt;
+		}
+		</script>
+	</body>
+</html>

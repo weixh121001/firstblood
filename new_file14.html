@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>weee</title>
+	</head>
+	<body>
+		<p>点击按钮显示确认框。</p>
+		<button type="button" onclick="myFunction()">点我</button>
+		<p id="demo"></p>
+		<script>
+			function myFunction(){
+				var x;
+				var n = confirm("按下按钮！");
+				if(n==true){
+					x="你按下了\"确认\"按钮";
+				}
+				else(n==false){
+					x="你按下了\"取消\"按钮";
+				}
+				document.getElementById("demo").innerHTML=x;
+				document.write("可以宽度："+screen.availHeight);
+			}
+		</script>
+	</body>
+</html>

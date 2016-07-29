@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>were</title>
+		<style>
+			div{
+				background: coral;
+				border: 1xp solid;
+				padding: 50xp;
+			}
+		</style>
+	</head>
+	<body>
+		<p>实例演示了在添加不同事件监听时，冒泡与捕获的不同。</p>
+		<div id="my1">
+			<p id="myp">点击段落，我是冒泡。</p>
+		</div><br>
+		
+		<div id="my2">
+			<p id="myp2">点击段落，我是捕获。</p>
+		</div>
+		
+		<script>
+			document.getElementById("myp").addEventListener("click",function(){
+				alert("你点击了p元素。");
+			},false);
+			document.getElementById("my1").addEventListener("click",function(){
+				alert("你点击了div元素。");
+			},false);
+			
+			document.getElementById("myp2").addEventListener("click",function(){
+				alert("你点击了p2元素。");
+			},true);
+			document.getElementById("my2").addEventListener("click",function(){
+				alert("你点击了div2元素。")
+			},true);
+			
+			
+		</script>
+		
+		
+	</body>
+</html>
